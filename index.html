@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" class="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111216">
+<title>VEM Utility — by Vinay Dagriya</title><link rel="icon" href="assets/favicon.png"><link rel="manifest" href="manifest.json">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app" id="app">
+<header class="top">
+  <div class="brand"><div class="logo">V</div><div><b>VEM UTILITY</b><small>by Vinay Dagriya</small></div></div>
+  <div class="toggle" aria-label="Theme"><button id="dark" title="Dark">☾</button><button id="light" class="active" title="Light">☀</button></div>
+</header>
+
+<section class="page active" id="home">
+  <div class="hero">
+    <div class="eyebrow">Electrical • Machinery • Workshop</div>
+    <h1>Everything you<br>need, in one app.</h1>
+    <div class="tagline-slider" aria-live="polite">
+      <p class="tagline active">Fast tools for the small calculations that matter on the workbench.</p>
+      <p class="tagline">Simple answers for electrical and machinery work.</p>
+      <p class="tagline">Measure, calculate and find what you need in seconds.</p>
+      <p class="tagline">Built for the workshop. Made for everyday engineering.</p>
+    </div>
+    <div class="search"><span>⌕</span><input id="search" placeholder="Search utilities..."></div>
+  </div>
+  <div class="head"><h2>Utilities</h2><span id="count">4 tools</span></div>
+  <div class="grid" id="grid">
+    <button class="card" data-open="swg"><div class="visual v-blue"><span class="symbol">🧵</span><span class="label">Copper wire</span></div><h3>SWG Wire Split</h3><p>Separate total copper weight by SWG.</p><span class="go">↗</span></button>
+    <button class="card" data-open="units"><div class="visual v-pink"><span class="symbol">↔</span><span class="label">Dimensions</span></div><h3>Inch ↔ MM</h3><p>Convert inch and millimetre values.</p><span class="go">↗</span></button>
+    <button class="card" data-open="bearing"><div class="visual v-green"><span class="symbol">⚙</span><span class="label">Bearing</span></div><h3>Bearing Finder</h3><p>Find the bearing number from ID, OD & width.</p><span class="go">↗</span></button>
+    <button class="card" data-open="tap"><div class="visual v-yellow"><span class="symbol">⌁</span><span class="label">Threading</span></div><h3>Tap Drill Size</h3><p>Find the drill bit for a tapping thread.</p><span class="go">↗</span></button>
+  </div>
+  <div class="more"><small>Coming soon</small><h3>More engineering tools</h3><p>Transformer • Motor Winding • Copper Weight • Ohm's Law • Cable Size and more.</p></div>
+  <div class="info-grid">
+    <button class="info-card" data-info="about"><div class="info-icon">✦</div><h3>About VEM Utility</h3><p>A practical collection of electrical, machinery and workshop utilities by Vinay Dagriya.</p></button>
+    <button class="info-card" data-info="contact"><div class="info-icon">✉</div><h3>Contact Us</h3><p>Have an idea, correction or new tool request? Get in touch with VEM Utility.</p></button>
+  </div>
+</section>
+
+<section class="page" id="swg">
+<button class="back" data-home>‹ &nbsp; All utilities</button>
+<div class="toolbox"><div class="tooltitle"><div class="ti v-blue">🧵</div><h2>SWG Wire Split</h2></div><p class="desc">Example: 18 + 18 + 19 with a total of 2.600 kg. Weight is distributed by cross-sectional area.</p>
+<div class="field"><label>SWG combination</label><input id="swgIn" value="18+18+19"></div><div class="field"><label>Total copper weight (kg)</label><input id="kg" type="number" step=".001" value="2.600"></div><button class="primary" id="swgBtn">Calculate split</button><div class="result" id="swgOut"></div></div>
+</section>
+
+<section class="page" id="units">
+<button class="back" data-home>‹ &nbsp; All utilities</button>
+<div class="toolbox"><div class="tooltitle"><div class="ti v-pink">↔</div><h2>Inch ↔ MM</h2></div><p class="desc">Quick conversion for workshop measurements.</p>
+<div class="row"><div class="field"><label>Value</label><input id="uv" type="number" value="3.8"></div><div class="field"><label>Direction</label><select id="ud"><option value="im">Inch → MM</option><option value="mi">MM → Inch</option></select></div></div><button class="primary" id="ubtn">Convert</button><div class="result" id="uout"></div></div>
+</section>
+
+<section class="page" id="bearing">
+<button class="back" data-home>‹ &nbsp; All utilities</button>
+<div class="toolbox"><div class="tooltitle"><div class="ti v-green">⚙</div><h2>Bearing Finder</h2></div><p class="desc">Enter ID, OD and width. The lookup uses the local bearing reference file in <code>data/bearings.json</code>. Enter exact ID, OD and width for a match.</p>
+<div class="row"><div class="field"><label>ID (mm)</label><input id="bi" type="number" value="10"></div><div class="field"><label>OD (mm)</label><input id="bo" type="number" value="30"></div></div><div class="field"><label>Width (mm)</label><input id="bw" type="number" value="9"></div><button class="primary" id="bbtn">Find bearing</button><div class="result" id="bout"></div></div>
+</section>
+
+<section class="page" id="tap">
+<button class="back" data-home>‹ &nbsp; All utilities</button>
+<div class="toolbox"><div class="tooltitle"><div class="ti v-yellow">⌁</div><h2>Tap Drill Size</h2></div><p class="desc">Select a common thread to see its sample recommended tap drill.</p>
+<div class="field"><label>Thread</label><select id="tapSel"><option value="7.94|5/16 in">3/8-16 UNC</option><option value="8.33|21/64 in">3/8-24 UNF</option><option value="6.80|6.8 mm">M8 × 1.25</option><option value="4.20|4.2 mm">M5 × 0.8</option><option value="10.20|10.2 mm">M12 × 1.75</option></select></div><button class="primary" id="tbtn">Show drill size</button><div class="result" id="tout"></div><div class="note">Always verify production tap-drill recommendations with the tap manufacturer's chart and your workpiece material.</div></div>
+</section>
+
+
+<section class="info-page page" id="about">
+  <button class="back" data-home>‹ &nbsp; All utilities</button>
+  <div class="info-box">
+    <div class="eyebrow">VEM UTILITY</div>
+    <h2>About Us</h2>
+    <p><b>VEM Utility by Vinay Dagriya</b> is designed as a practical digital toolbox for electrical, machinery and workshop calculations.</p>
+    <p>The goal is simple: replace repeated manual calculations and searching through tables with quick, easy-to-use tools that work on your phone.</p>
+    <p>We are starting with SWG wire calculations, unit conversion, bearing identification and tap-drill selection, with more engineering utilities planned.</p>
+    <p>More details about VEM Utility and the team can be added here later.</p>
+  </div>
+</section>
+
+<section class="info-page page" id="contact">
+  <button class="back" data-home>‹ &nbsp; All utilities</button>
+  <div class="info-box">
+    <div class="eyebrow">VEM UTILITY</div>
+    <h2>Contact Us</h2>
+    <p>Found an issue, want to suggest a utility, or have feedback about a calculation? We would love to hear from you.</p>
+    <div class="contact-item"><div>✉️</div><div><b>Email</b><span><a href="mailto:vinayelectricmachinery@gmail.com">vinayelectricmachinery@gmail.com</a></span></div></div>
+    <div class="contact-item"><div>💬</div><div><b>WhatsApp</b><span><a href="https://wa.me/917073547732" target="_blank" rel="noopener">+91 70735 47732</a></span></div></div>
+    <div class="contact-item"><div>📍</div><div><b>Address</b><span>Vinay Electric Machinery, Dhariyawad, Pratapgarh, Rajasthan 313605</span></div></div>
+    <p class="note">For corrections, suggestions and new utility requests, please contact VEM Utility using the details above.</p>
+  </div>
+</section>
+
+<nav class="bottom">
+<button class="active" data-nav="home"><b>⌂</b>Home</button><button data-nav="swg"><b>🧵</b>SWG</button><button data-nav="bearing"><b>⚙</b>Bearing</button><button data-nav="tap"><b>⌁</b>Tap</button><button data-nav="about"><b>ⓘ</b>About</button><button data-nav="contact"><b>✉</b>Contact</button>
+</nav>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
