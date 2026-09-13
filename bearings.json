@@ -1,0 +1,2172 @@
+{
+  "schema_version": "1.0",
+  "title": "VEM Utility Bearing Master Database",
+  "description": "Standards-oriented bearing boundary dimensions in millimetres. Open-bearing boundary dimensions; suffixes such as 2RS/2Z/ZZ do not change ID/OD/width.",
+  "note": "This is a comprehensive starter database of common standard series, not literally every manufacturer-specific bearing ever sold. Custom, OEM-specific, inch-series, and brand suffix variants are intentionally separate from base dimensions.",
+  "source_notes": [
+    "ISO 15 deep-groove boundary dimensions are reflected for common 6000/6200/6300 families.",
+    "Manufacturer/catalog cross-checks include SKF and public bearing dimension tables."
+  ],
+  "records": [
+    {
+      "number": "16001",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 12,
+      "od": 28,
+      "width": 8,
+      "unit": "mm"
+    },
+    {
+      "number": "16002",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 15,
+      "od": 32,
+      "width": 8,
+      "unit": "mm"
+    },
+    {
+      "number": "16003",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 17,
+      "od": 35,
+      "width": 8,
+      "unit": "mm"
+    },
+    {
+      "number": "16004",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 20,
+      "od": 42,
+      "width": 8,
+      "unit": "mm"
+    },
+    {
+      "number": "16005",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 25,
+      "od": 47,
+      "width": 8,
+      "unit": "mm"
+    },
+    {
+      "number": "16006",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 30,
+      "od": 55,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "16007",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 35,
+      "od": 62,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "16008",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 40,
+      "od": 68,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "16009",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 45,
+      "od": 75,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "16010",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 50,
+      "od": 80,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "16011",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 55,
+      "od": 90,
+      "width": 11,
+      "unit": "mm"
+    },
+    {
+      "number": "16012",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 60,
+      "od": 95,
+      "width": 11,
+      "unit": "mm"
+    },
+    {
+      "number": "16013",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 65,
+      "od": 100,
+      "width": 11,
+      "unit": "mm"
+    },
+    {
+      "number": "16014",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 70,
+      "od": 110,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "16015",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 75,
+      "od": 115,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "16016",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 80,
+      "od": 125,
+      "width": 14,
+      "unit": "mm"
+    },
+    {
+      "number": "16017",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 85,
+      "od": 130,
+      "width": 14,
+      "unit": "mm"
+    },
+    {
+      "number": "16018",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 90,
+      "od": 140,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "16019",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 95,
+      "od": 145,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "16020",
+      "series": "16000",
+      "type": "deep_groove_ball",
+      "id": 100,
+      "od": 150,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "603",
+      "series": "600 miniature",
+      "type": "deep_groove_ball",
+      "id": 3,
+      "od": 9,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "604",
+      "series": "600 miniature",
+      "type": "deep_groove_ball",
+      "id": 4,
+      "od": 12,
+      "width": 4,
+      "unit": "mm"
+    },
+    {
+      "number": "605",
+      "series": "600 miniature",
+      "type": "deep_groove_ball",
+      "id": 5,
+      "od": 14,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "606",
+      "series": "600 miniature",
+      "type": "deep_groove_ball",
+      "id": 6,
+      "od": 17,
+      "width": 6,
+      "unit": "mm"
+    },
+    {
+      "number": "607",
+      "series": "600 miniature",
+      "type": "deep_groove_ball",
+      "id": 7,
+      "od": 19,
+      "width": 6,
+      "unit": "mm"
+    },
+    {
+      "number": "608",
+      "series": "600 miniature",
+      "type": "deep_groove_ball",
+      "id": 8,
+      "od": 22,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "609",
+      "series": "600 miniature",
+      "type": "deep_groove_ball",
+      "id": 9,
+      "od": 24,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6000",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 10,
+      "od": 26,
+      "width": 8,
+      "unit": "mm"
+    },
+    {
+      "number": "6001",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 12,
+      "od": 28,
+      "width": 8,
+      "unit": "mm"
+    },
+    {
+      "number": "6002",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 15,
+      "od": 32,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "6003",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 17,
+      "od": 35,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "6004",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 20,
+      "od": 42,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "6005",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 25,
+      "od": 47,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "6006",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 30,
+      "od": 55,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "6007",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 35,
+      "od": 62,
+      "width": 14,
+      "unit": "mm"
+    },
+    {
+      "number": "6008",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 40,
+      "od": 68,
+      "width": 15,
+      "unit": "mm"
+    },
+    {
+      "number": "6009",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 45,
+      "od": 75,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "6010",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 50,
+      "od": 80,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "6011",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 55,
+      "od": 90,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "6012",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 60,
+      "od": 95,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "6013",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 65,
+      "od": 100,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "6014",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 70,
+      "od": 110,
+      "width": 20,
+      "unit": "mm"
+    },
+    {
+      "number": "6015",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 75,
+      "od": 115,
+      "width": 20,
+      "unit": "mm"
+    },
+    {
+      "number": "6016",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 80,
+      "od": 125,
+      "width": 22,
+      "unit": "mm"
+    },
+    {
+      "number": "6017",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 85,
+      "od": 130,
+      "width": 22,
+      "unit": "mm"
+    },
+    {
+      "number": "6018",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 90,
+      "od": 140,
+      "width": 24,
+      "unit": "mm"
+    },
+    {
+      "number": "6019",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 95,
+      "od": 145,
+      "width": 24,
+      "unit": "mm"
+    },
+    {
+      "number": "6020",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 100,
+      "od": 150,
+      "width": 24,
+      "unit": "mm"
+    },
+    {
+      "number": "6021",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 105,
+      "od": 160,
+      "width": 26,
+      "unit": "mm"
+    },
+    {
+      "number": "6022",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 110,
+      "od": 170,
+      "width": 28,
+      "unit": "mm"
+    },
+    {
+      "number": "6024",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 120,
+      "od": 180,
+      "width": 28,
+      "unit": "mm"
+    },
+    {
+      "number": "6026",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 130,
+      "od": 200,
+      "width": 33,
+      "unit": "mm"
+    },
+    {
+      "number": "6028",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 140,
+      "od": 210,
+      "width": 33,
+      "unit": "mm"
+    },
+    {
+      "number": "6030",
+      "series": "6000",
+      "type": "deep_groove_ball",
+      "id": 150,
+      "od": 225,
+      "width": 35,
+      "unit": "mm"
+    },
+    {
+      "number": "61800",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 10,
+      "od": 19,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "61801",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 12,
+      "od": 21,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "61802",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 15,
+      "od": 24,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "61803",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 17,
+      "od": 26,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "61804",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 20,
+      "od": 32,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "61805",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 25,
+      "od": 37,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "61806",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 30,
+      "od": 42,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "61807",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 35,
+      "od": 47,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "61808",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 40,
+      "od": 52,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "61809",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 45,
+      "od": 58,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "61810",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 50,
+      "od": 65,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "61811",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 55,
+      "od": 72,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "61812",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 60,
+      "od": 78,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "61813",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 65,
+      "od": 85,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "61814",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 70,
+      "od": 90,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "61815",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 75,
+      "od": 95,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "61816",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 80,
+      "od": 100,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "61817",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 85,
+      "od": 110,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "61818",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 90,
+      "od": 115,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "61819",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 95,
+      "od": 120,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "61820",
+      "series": "61800",
+      "type": "deep_groove_ball",
+      "id": 100,
+      "od": 125,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "61900",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 10,
+      "od": 22,
+      "width": 6,
+      "unit": "mm"
+    },
+    {
+      "number": "61901",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 12,
+      "od": 24,
+      "width": 6,
+      "unit": "mm"
+    },
+    {
+      "number": "61902",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 15,
+      "od": 28,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "61903",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 17,
+      "od": 30,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "61904",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 20,
+      "od": 37,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "61905",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 25,
+      "od": 42,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "61906",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 30,
+      "od": 47,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "61907",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 35,
+      "od": 55,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "61908",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 40,
+      "od": 62,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "61909",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 45,
+      "od": 68,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "61910",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 50,
+      "od": 72,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "61911",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 55,
+      "od": 80,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "61912",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 60,
+      "od": 85,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "61913",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 65,
+      "od": 90,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "61914",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 70,
+      "od": 100,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "61915",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 75,
+      "od": 105,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "61916",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 80,
+      "od": 110,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "61917",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 85,
+      "od": 120,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "61918",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 90,
+      "od": 125,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "61919",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 95,
+      "od": 130,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "61920",
+      "series": "61900",
+      "type": "deep_groove_ball",
+      "id": 100,
+      "od": 140,
+      "width": 20,
+      "unit": "mm"
+    },
+    {
+      "number": "623",
+      "series": "620 miniature",
+      "type": "deep_groove_ball",
+      "id": 3,
+      "od": 10,
+      "width": 4,
+      "unit": "mm"
+    },
+    {
+      "number": "624",
+      "series": "620 miniature",
+      "type": "deep_groove_ball",
+      "id": 4,
+      "od": 13,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "625",
+      "series": "620 miniature",
+      "type": "deep_groove_ball",
+      "id": 5,
+      "od": 16,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "626",
+      "series": "620 miniature",
+      "type": "deep_groove_ball",
+      "id": 6,
+      "od": 19,
+      "width": 6,
+      "unit": "mm"
+    },
+    {
+      "number": "627",
+      "series": "620 miniature",
+      "type": "deep_groove_ball",
+      "id": 7,
+      "od": 22,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "628",
+      "series": "620 miniature",
+      "type": "deep_groove_ball",
+      "id": 8,
+      "od": 24,
+      "width": 8,
+      "unit": "mm"
+    },
+    {
+      "number": "629",
+      "series": "620 miniature",
+      "type": "deep_groove_ball",
+      "id": 9,
+      "od": 26,
+      "width": 8,
+      "unit": "mm"
+    },
+    {
+      "number": "6200",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 10,
+      "od": 30,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "6201",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 12,
+      "od": 32,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "6202",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 15,
+      "od": 35,
+      "width": 11,
+      "unit": "mm"
+    },
+    {
+      "number": "6203",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 17,
+      "od": 40,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "6204",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 20,
+      "od": 47,
+      "width": 14,
+      "unit": "mm"
+    },
+    {
+      "number": "6205",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 25,
+      "od": 52,
+      "width": 15,
+      "unit": "mm"
+    },
+    {
+      "number": "6206",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 30,
+      "od": 62,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "6207",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 35,
+      "od": 72,
+      "width": 17,
+      "unit": "mm"
+    },
+    {
+      "number": "6208",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 40,
+      "od": 80,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "6209",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 45,
+      "od": 85,
+      "width": 19,
+      "unit": "mm"
+    },
+    {
+      "number": "6210",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 50,
+      "od": 90,
+      "width": 20,
+      "unit": "mm"
+    },
+    {
+      "number": "6211",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 55,
+      "od": 100,
+      "width": 21,
+      "unit": "mm"
+    },
+    {
+      "number": "6212",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 60,
+      "od": 110,
+      "width": 22,
+      "unit": "mm"
+    },
+    {
+      "number": "6213",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 65,
+      "od": 120,
+      "width": 23,
+      "unit": "mm"
+    },
+    {
+      "number": "6214",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 70,
+      "od": 125,
+      "width": 24,
+      "unit": "mm"
+    },
+    {
+      "number": "6215",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 75,
+      "od": 130,
+      "width": 25,
+      "unit": "mm"
+    },
+    {
+      "number": "6216",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 80,
+      "od": 140,
+      "width": 26,
+      "unit": "mm"
+    },
+    {
+      "number": "6217",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 85,
+      "od": 150,
+      "width": 28,
+      "unit": "mm"
+    },
+    {
+      "number": "6218",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 90,
+      "od": 160,
+      "width": 30,
+      "unit": "mm"
+    },
+    {
+      "number": "6219",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 95,
+      "od": 170,
+      "width": 32,
+      "unit": "mm"
+    },
+    {
+      "number": "6220",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 100,
+      "od": 180,
+      "width": 34,
+      "unit": "mm"
+    },
+    {
+      "number": "6221",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 105,
+      "od": 190,
+      "width": 36,
+      "unit": "mm"
+    },
+    {
+      "number": "6222",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 110,
+      "od": 200,
+      "width": 38,
+      "unit": "mm"
+    },
+    {
+      "number": "6224",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 120,
+      "od": 215,
+      "width": 40,
+      "unit": "mm"
+    },
+    {
+      "number": "6226",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 130,
+      "od": 230,
+      "width": 40,
+      "unit": "mm"
+    },
+    {
+      "number": "6228",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 140,
+      "od": 250,
+      "width": 42,
+      "unit": "mm"
+    },
+    {
+      "number": "6230",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 150,
+      "od": 270,
+      "width": 45,
+      "unit": "mm"
+    },
+    {
+      "number": "6232",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 160,
+      "od": 290,
+      "width": 48,
+      "unit": "mm"
+    },
+    {
+      "number": "6234",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 170,
+      "od": 310,
+      "width": 52,
+      "unit": "mm"
+    },
+    {
+      "number": "6236",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 180,
+      "od": 320,
+      "width": 52,
+      "unit": "mm"
+    },
+    {
+      "number": "6238",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 190,
+      "od": 340,
+      "width": 55,
+      "unit": "mm"
+    },
+    {
+      "number": "6240",
+      "series": "6200",
+      "type": "deep_groove_ball",
+      "id": 200,
+      "od": 360,
+      "width": 58,
+      "unit": "mm"
+    },
+    {
+      "number": "633",
+      "series": "630 miniature",
+      "type": "deep_groove_ball",
+      "id": 3,
+      "od": 13,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "634",
+      "series": "630 miniature",
+      "type": "deep_groove_ball",
+      "id": 4,
+      "od": 16,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "635",
+      "series": "630 miniature",
+      "type": "deep_groove_ball",
+      "id": 5,
+      "od": 19,
+      "width": 6,
+      "unit": "mm"
+    },
+    {
+      "number": "636",
+      "series": "630 miniature",
+      "type": "deep_groove_ball",
+      "id": 6,
+      "od": 22,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "637",
+      "series": "630 miniature",
+      "type": "deep_groove_ball",
+      "id": 7,
+      "od": 26,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "638",
+      "series": "630 miniature",
+      "type": "deep_groove_ball",
+      "id": 8,
+      "od": 28,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "639",
+      "series": "630 miniature",
+      "type": "deep_groove_ball",
+      "id": 9,
+      "od": 30,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "6300",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 10,
+      "od": 35,
+      "width": 11,
+      "unit": "mm"
+    },
+    {
+      "number": "6301",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 12,
+      "od": 37,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "6302",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 15,
+      "od": 42,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "6303",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 17,
+      "od": 47,
+      "width": 14,
+      "unit": "mm"
+    },
+    {
+      "number": "6304",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 20,
+      "od": 52,
+      "width": 15,
+      "unit": "mm"
+    },
+    {
+      "number": "6305",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 25,
+      "od": 62,
+      "width": 17,
+      "unit": "mm"
+    },
+    {
+      "number": "6306",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 30,
+      "od": 72,
+      "width": 19,
+      "unit": "mm"
+    },
+    {
+      "number": "6307",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 35,
+      "od": 80,
+      "width": 21,
+      "unit": "mm"
+    },
+    {
+      "number": "6308",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 40,
+      "od": 90,
+      "width": 23,
+      "unit": "mm"
+    },
+    {
+      "number": "6309",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 45,
+      "od": 100,
+      "width": 25,
+      "unit": "mm"
+    },
+    {
+      "number": "6310",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 50,
+      "od": 110,
+      "width": 27,
+      "unit": "mm"
+    },
+    {
+      "number": "6311",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 55,
+      "od": 120,
+      "width": 29,
+      "unit": "mm"
+    },
+    {
+      "number": "6312",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 60,
+      "od": 130,
+      "width": 31,
+      "unit": "mm"
+    },
+    {
+      "number": "6313",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 65,
+      "od": 140,
+      "width": 33,
+      "unit": "mm"
+    },
+    {
+      "number": "6314",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 70,
+      "od": 150,
+      "width": 35,
+      "unit": "mm"
+    },
+    {
+      "number": "6315",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 75,
+      "od": 160,
+      "width": 37,
+      "unit": "mm"
+    },
+    {
+      "number": "6316",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 80,
+      "od": 170,
+      "width": 39,
+      "unit": "mm"
+    },
+    {
+      "number": "6317",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 85,
+      "od": 180,
+      "width": 41,
+      "unit": "mm"
+    },
+    {
+      "number": "6318",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 90,
+      "od": 190,
+      "width": 43,
+      "unit": "mm"
+    },
+    {
+      "number": "6319",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 95,
+      "od": 200,
+      "width": 45,
+      "unit": "mm"
+    },
+    {
+      "number": "6320",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 100,
+      "od": 215,
+      "width": 47,
+      "unit": "mm"
+    },
+    {
+      "number": "6321",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 105,
+      "od": 225,
+      "width": 49,
+      "unit": "mm"
+    },
+    {
+      "number": "6322",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 110,
+      "od": 240,
+      "width": 50,
+      "unit": "mm"
+    },
+    {
+      "number": "6324",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 120,
+      "od": 260,
+      "width": 55,
+      "unit": "mm"
+    },
+    {
+      "number": "6326",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 130,
+      "od": 280,
+      "width": 58,
+      "unit": "mm"
+    },
+    {
+      "number": "6328",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 140,
+      "od": 300,
+      "width": 62,
+      "unit": "mm"
+    },
+    {
+      "number": "6330",
+      "series": "6300",
+      "type": "deep_groove_ball",
+      "id": 150,
+      "od": 320,
+      "width": 65,
+      "unit": "mm"
+    },
+    {
+      "number": "6700",
+      "series": "6700",
+      "type": "deep_groove_ball",
+      "id": 10,
+      "od": 15,
+      "width": 4,
+      "unit": "mm"
+    },
+    {
+      "number": "6701",
+      "series": "6700",
+      "type": "deep_groove_ball",
+      "id": 12,
+      "od": 18,
+      "width": 4,
+      "unit": "mm"
+    },
+    {
+      "number": "6702",
+      "series": "6700",
+      "type": "deep_groove_ball",
+      "id": 15,
+      "od": 21,
+      "width": 4,
+      "unit": "mm"
+    },
+    {
+      "number": "6703",
+      "series": "6700",
+      "type": "deep_groove_ball",
+      "id": 17,
+      "od": 23,
+      "width": 4,
+      "unit": "mm"
+    },
+    {
+      "number": "6704",
+      "series": "6700",
+      "type": "deep_groove_ball",
+      "id": 20,
+      "od": 27,
+      "width": 4,
+      "unit": "mm"
+    },
+    {
+      "number": "6705",
+      "series": "6700",
+      "type": "deep_groove_ball",
+      "id": 25,
+      "od": 32,
+      "width": 4,
+      "unit": "mm"
+    },
+    {
+      "number": "6706",
+      "series": "6700",
+      "type": "deep_groove_ball",
+      "id": 30,
+      "od": 37,
+      "width": 4,
+      "unit": "mm"
+    },
+    {
+      "number": "6800",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 10,
+      "od": 19,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "6801",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 12,
+      "od": 21,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "6802",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 15,
+      "od": 24,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "6803",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 17,
+      "od": 26,
+      "width": 5,
+      "unit": "mm"
+    },
+    {
+      "number": "6804",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 20,
+      "od": 32,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6805",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 25,
+      "od": 37,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6806",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 30,
+      "od": 42,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6807",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 35,
+      "od": 47,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6808",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 40,
+      "od": 52,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6809",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 45,
+      "od": 58,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6810",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 50,
+      "od": 65,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6811",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 55,
+      "od": 72,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "6812",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 60,
+      "od": 78,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "6813",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 65,
+      "od": 85,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "6814",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 70,
+      "od": 90,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "6815",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 75,
+      "od": 95,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "6816",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 80,
+      "od": 100,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "6817",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 85,
+      "od": 110,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "6818",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 90,
+      "od": 115,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "6819",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 95,
+      "od": 120,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "6820",
+      "series": "6800",
+      "type": "deep_groove_ball",
+      "id": 100,
+      "od": 125,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "6900",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 10,
+      "od": 22,
+      "width": 6,
+      "unit": "mm"
+    },
+    {
+      "number": "6901",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 12,
+      "od": 24,
+      "width": 6,
+      "unit": "mm"
+    },
+    {
+      "number": "6902",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 15,
+      "od": 28,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6903",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 17,
+      "od": 30,
+      "width": 7,
+      "unit": "mm"
+    },
+    {
+      "number": "6904",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 20,
+      "od": 37,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "6905",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 25,
+      "od": 42,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "6906",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 30,
+      "od": 47,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "6907",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 35,
+      "od": 55,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "6908",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 40,
+      "od": 62,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "6909",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 45,
+      "od": 68,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "6910",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 50,
+      "od": 72,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "6911",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 55,
+      "od": 80,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "6912",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 60,
+      "od": 85,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "6913",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 65,
+      "od": 90,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "6914",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 70,
+      "od": 100,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "6915",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 75,
+      "od": 105,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "6916",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 80,
+      "od": 110,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "6917",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 85,
+      "od": 120,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "6918",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 90,
+      "od": 125,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "6919",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 95,
+      "od": 130,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "6920",
+      "series": "6900",
+      "type": "deep_groove_ball",
+      "id": 100,
+      "od": 140,
+      "width": 20,
+      "unit": "mm"
+    },
+    {
+      "number": "7200",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 10,
+      "od": 30,
+      "width": 9,
+      "unit": "mm"
+    },
+    {
+      "number": "7201",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 12,
+      "od": 32,
+      "width": 10,
+      "unit": "mm"
+    },
+    {
+      "number": "7202",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 15,
+      "od": 35,
+      "width": 11,
+      "unit": "mm"
+    },
+    {
+      "number": "7203",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 17,
+      "od": 40,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "7204",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 20,
+      "od": 47,
+      "width": 14,
+      "unit": "mm"
+    },
+    {
+      "number": "7205",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 25,
+      "od": 52,
+      "width": 15,
+      "unit": "mm"
+    },
+    {
+      "number": "7206",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 30,
+      "od": 62,
+      "width": 16,
+      "unit": "mm"
+    },
+    {
+      "number": "7207",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 35,
+      "od": 72,
+      "width": 17,
+      "unit": "mm"
+    },
+    {
+      "number": "7208",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 40,
+      "od": 80,
+      "width": 18,
+      "unit": "mm"
+    },
+    {
+      "number": "7209",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 45,
+      "od": 85,
+      "width": 19,
+      "unit": "mm"
+    },
+    {
+      "number": "7210",
+      "series": "7200",
+      "type": "angular_contact_single",
+      "id": 50,
+      "od": 90,
+      "width": 20,
+      "unit": "mm"
+    },
+    {
+      "number": "7300",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 10,
+      "od": 35,
+      "width": 11,
+      "unit": "mm"
+    },
+    {
+      "number": "7301",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 12,
+      "od": 37,
+      "width": 12,
+      "unit": "mm"
+    },
+    {
+      "number": "7302",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 15,
+      "od": 42,
+      "width": 13,
+      "unit": "mm"
+    },
+    {
+      "number": "7303",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 17,
+      "od": 47,
+      "width": 14,
+      "unit": "mm"
+    },
+    {
+      "number": "7304",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 20,
+      "od": 52,
+      "width": 15,
+      "unit": "mm"
+    },
+    {
+      "number": "7305",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 25,
+      "od": 62,
+      "width": 17,
+      "unit": "mm"
+    },
+    {
+      "number": "7306",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 30,
+      "od": 72,
+      "width": 19,
+      "unit": "mm"
+    },
+    {
+      "number": "7307",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 35,
+      "od": 80,
+      "width": 21,
+      "unit": "mm"
+    },
+    {
+      "number": "7308",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 40,
+      "od": 90,
+      "width": 23,
+      "unit": "mm"
+    },
+    {
+      "number": "7309",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 45,
+      "od": 100,
+      "width": 25,
+      "unit": "mm"
+    },
+    {
+      "number": "7310",
+      "series": "7300",
+      "type": "angular_contact_single",
+      "id": 50,
+      "od": 110,
+      "width": 27,
+      "unit": "mm"
+    }
+  ]
+}
