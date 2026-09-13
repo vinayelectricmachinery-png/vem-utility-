@@ -55,8 +55,59 @@
 
 <section class="page" id="bearing">
 <button class="back" data-home>‹ &nbsp; All utilities</button>
-<div class="toolbox"><div class="tooltitle"><div class="ti v-green">⚙</div><h2>Bearing Finder</h2></div><p class="desc">Enter ID, OD and width. The lookup uses the local bearing reference file in <code>data/bearings.json</code>. Enter exact ID, OD and width for a match.</p>
-<div class="row"><div class="field"><label>ID (mm)</label><input id="bi" type="number" value="10"></div><div class="field"><label>OD (mm)</label><input id="bo" type="number" value="30"></div></div><div class="field"><label>Width (mm)</label><input id="bw" type="number" value="9"></div><button class="primary" id="bbtn">Find bearing</button><div class="result" id="bout"></div></div>
+
+<div class="toolbox">
+  <div class="tooltitle">
+    <div class="ti v-green">⚙</div>
+    <h2>Bearing Finder</h2>
+  </div>
+
+  <p class="desc">
+    Find a bearing by its dimensions, or enter a bearing number to get its dimensions.
+  </p>
+
+  <div class="field">
+    <label>Search Mode</label>
+    <select id="bearingMode">
+      <option value="dimensions">Dimensions → Bearing Number</option>
+      <option value="number">Bearing Number → Dimensions</option>
+    </select>
+  </div>
+
+  <!-- DIMENSION SEARCH -->
+  <div id="dimensionSearch">
+    <div class="row">
+      <div class="field">
+        <label>ID (mm)</label>
+        <input id="bi" type="number" step="any" value="10">
+      </div>
+
+      <div class="field">
+        <label>OD (mm)</label>
+        <input id="bo" type="number" step="any" value="30">
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Width (mm)</label>
+      <input id="bw" type="number" step="any" value="9">
+    </div>
+
+    <button class="primary" id="bbtn">Find bearing</button>
+  </div>
+
+  <!-- BEARING NUMBER SEARCH -->
+  <div id="numberSearch" style="display:none;">
+    <div class="field">
+      <label>Bearing Number</label>
+      <input id="bearingNumber" type="text" placeholder="Example: 6205">
+    </div>
+
+    <button class="primary" id="bnbtn">Find dimensions</button>
+  </div>
+
+  <div class="result" id="bout"></div>
+</div>
 </section>
 
 <section class="page" id="tap">
