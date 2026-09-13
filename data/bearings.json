@@ -2170,3 +2170,8 @@
     }
   ]
 }
+      "type": "angular_contact_single",
+      "id": 8,
+      "od": 19,
+      "width": 6,
+      "unit": "mm"
